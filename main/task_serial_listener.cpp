@@ -45,7 +45,7 @@ constexpr int FOOTER_LINE_Y = 220;
 constexpr int FOOTER_INFO_X = 10;
 constexpr int FOOTER_INFO_Y = 215;
 constexpr int FOOTER_HINT_X = 10;
-constexpr int FOOTER_HINT_Y = 226;
+constexpr int FOOTER_HINT_Y = 230; // Moved down to avoid overlapping with line
 constexpr float FOOTER_TEXT_SIZE = 1.0f;
 
 // Visual Effects
