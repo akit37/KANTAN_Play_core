@@ -101,8 +101,9 @@ void setup() {
   M5.Display.setRotation(0);
   M5.Display.setTextSize(2);
   M5.Display.printf("KANTAN Play\nver%lu.%lu.%lu\n\nboot",
-                    def::app::app_version_major, def::app::app_version_minor,
-                    def::app::app_version_patch);
+                    kanplay_ns::def::app::app_version_major,
+                    kanplay_ns::def::app::app_version_minor,
+                    kanplay_ns::def::app::app_version_patch);
 
   // Give some time for FS and Serial to stabilize
   M5.delay(500);
